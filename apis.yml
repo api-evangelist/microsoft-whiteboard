@@ -1,0 +1,34 @@
+aid: microsoft-whiteboard
+url: https://raw.githubusercontent.com/api-evangelist/microsoft-whiteboard/refs/heads/main/apis.yml
+apis:
+  - aid: microsoft-whiteboard:graph-whiteboard-api
+    name: Microsoft Graph Whiteboard API
+    tags:
+      - Whiteboard
+      - Collaboration
+      - Visual Collaboration
+      - Microsoft Graph
+    image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    baseURL: https://graph.microsoft.com/v1.0/
+    humanURL: https://learn.microsoft.com/en-us/graph/api/resources/whiteboard
+    properties:
+      - url: https://learn.microsoft.com/en-us/graph/api/resources/whiteboard
+        type: Documentation
+    description: >-
+      The Microsoft Graph Whiteboard API enables developers to manage
+      Microsoft Whiteboard resources programmatically. Applications can
+      create whiteboards, manage participants, and export whiteboard content.
+      The API integrates with Microsoft Teams meetings and supports
+      collaborative digital canvas scenarios.
+common:
+  - type: Authentication
+    url: https://learn.microsoft.com/en-us/graph/auth/
+  - type: Terms of Service
+    url: https://www.microsoft.com/en-us/legal/terms-of-use
+  - type: Privacy Policy
+    url: https://privacy.microsoft.com/en-us/privacystatement
+  - type: Support
+    url: https://support.microsoft.com/
+maintainers:
+  - name: Kin Lane
+    email: kin@apievangelist.com
