@@ -7,11 +7,11 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Whiteboard
   - Collaboration
-  - Visual Collaboration
-  - Microsoft 365
   - Microsoft
+  - Microsoft 365
+  - Visual Collaboration
+  - Whiteboard
 url: https://raw.githubusercontent.com/api-evangelist/microsoft-whiteboard/refs/heads/main/apis.yml
 created: '2024-01-01'
 modified: '2026-03-16'
@@ -20,10 +20,10 @@ apis:
   - aid: microsoft-whiteboard:graph-whiteboard-api
     name: Microsoft Graph Whiteboard API
     tags:
-      - Whiteboard
       - Collaboration
-      - Visual Collaboration
       - Microsoft Graph
+      - Visual Collaboration
+      - Whiteboard
     image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
     baseURL: https://graph.microsoft.com/v1.0/
     humanURL: https://learn.microsoft.com/en-us/graph/api/resources/whiteboard
