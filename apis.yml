@@ -39,6 +39,8 @@ apis:
       The API integrates with Microsoft Teams meetings and supports
       collaborative digital canvas scenarios.
 common:
+  - type: GitHubOrganization
+    url: https://github.com/microsoft
   - type: Portal
     url: https://whiteboard.microsoft.com/
   - type: Website
