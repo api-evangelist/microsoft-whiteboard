@@ -39,6 +39,10 @@ apis:
       The API integrates with Microsoft Teams meetings and supports
       collaborative digital canvas scenarios.
 common:
+  - type: VulnerabilityDisclosure
+    url: security/microsoft-whiteboard-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/microsoft-whiteboard-domain-security.yml
   - type: GitHubOrganization
     url: https://github.com/microsoft
   - type: Portal
