@@ -21,6 +21,12 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-
 tags:
   - Collaboration
   - Microsoft
+  - Microsoft-365
+  - Visual Collaboration
+  - Whiteboard
+tags_raw:
+  - Collaboration
+  - Microsoft
   - Microsoft 365
   - Visual Collaboration
   - Whiteboard
