@@ -32,7 +32,7 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/microsoft-
 tags:
   - Collaboration
   - Microsoft
-  - Microsoft-365
+  - Microsoft 365
   - Visual Collaboration
   - Whiteboard
 tags_raw:
@@ -41,6 +41,7 @@ tags_raw:
   - Microsoft 365
   - Visual Collaboration
   - Whiteboard
+  - Microsoft-365
 url: https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app
 created: '2024-01-01'
 modified: '2026-04-28'
