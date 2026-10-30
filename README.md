@@ -1,4 +1,4 @@
-# Microsoft Whiteboard (microsoft-whiteboard)
+# Microsoft Whiteboard
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,47 +66,105 @@
 
 Microsoft Whiteboard is a digital canvas for visual collaboration. It provides API access through Microsoft Graph for managing whiteboard resources, participants, and content programmatically.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/microsoft-whiteboard/refs/heads/main/apis.yml)
+**Areas:** Collaboration · Microsoft · Microsoft 365 · Visual Collaboration · Whiteboard
 
-## Tags:
+## Microsoft Whiteboard on APIs.io
 
- - Collaboration, Microsoft, Microsoft 365, Visual Collaboration, Whiteboard
+Everything profiled for Microsoft Whiteboard is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/microsoft-whiteboard/](https://apis.io/providers/microsoft-whiteboard/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2024-01-01
-- **Modified:** 2026-04-28
+- [Microsoft Graph Whiteboard API](https://apis.io/apis/microsoft-whiteboard/graph-whiteboard-api/) — The Microsoft Graph Whiteboard API enables developers to manage Microsoft Whiteboard resources programmatically. Applications can create whiteboards, manage…
 
-## APIs
+### Published properties
 
-### Microsoft Graph Whiteboard API
-The Microsoft Graph Whiteboard API enables developers to manage Microsoft Whiteboard resources programmatically. Applications can create whiteboards, manage participants, and export whiteboard content. The API integrates with Microsoft Teams meetings and supports collaborative digital canvas scenarios.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-**Human URL:** [https://learn.microsoft.com/en-us/graph/api/resources/whiteboard](https://learn.microsoft.com/en-us/graph/api/resources/whiteboard)
+#### Security (2)
 
-**Base URL:** https://graph.microsoft.com/v1.0/
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Tags:
+- [Microsoft Whiteboard Domain Security](https://apis.io/security/microsoft-whiteboard/microsoft-whiteboard-domain-security/)
+- [Microsoft Whiteboard Vulnerability Disclosure](https://apis.io/security/microsoft-whiteboard/microsoft-whiteboard-vulnerability-disclosure/)
 
- - Collaboration, Microsoft Graph, Visual Collaboration, Whiteboard
+#### Plans and pricing (1)
 
-#### Properties
+Published plans, tiers and prices.
 
-- [Documentation](https://learn.microsoft.com/en-us/graph/api/resources/whiteboard)
-- [Authentication](https://learn.microsoft.com/en-us/graph/auth/)
+- [Microsoft Whiteboard Plans Pricing](https://apis.io/plans/microsoft-whiteboard/microsoft-whiteboard-plans-pricing/)
 
-## Common Properties
+#### Rate limits (1)
 
-- [Portal](https://whiteboard.microsoft.com/)
+Published request limits.
+
+- [Microsoft Whiteboard Rate Limits](https://apis.io/rate-limits/microsoft-whiteboard/microsoft-whiteboard-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Microsoft Whiteboard Finops](https://apis.io/finops/microsoft-whiteboard/microsoft-whiteboard-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
 - [Website](https://www.microsoft.com/en-us/microsoft-365/microsoft-whiteboard/digital-whiteboard-app)
 - [Documentation](https://learn.microsoft.com/en-us/graph/api/resources/whiteboard)
-- [Authentication](https://learn.microsoft.com/en-us/graph/auth/)
-- [Terms of Service](https://www.microsoft.com/en-us/legal/terms-of-use)
-- [Privacy Policy](https://privacy.microsoft.com/en-us/privacystatement)
 - [Support](https://support.microsoft.com/)
+- [Terms of service](https://www.microsoft.com/en-us/legal/terms-of-use)
+- [Privacy policy](https://privacy.microsoft.com/en-us/privacystatement)
+- [GitHub](https://github.com/microsoft)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 20.4** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 28.9 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 25.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/microsoft-whiteboard/](https://apis.io/providers/microsoft-whiteboard/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Microsoft Whiteboard: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/microsoft-whiteboard/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
